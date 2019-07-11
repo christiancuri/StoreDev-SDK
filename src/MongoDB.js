@@ -43,6 +43,8 @@ class MongoDB {
         logger.warn(
           `MongoDb disconeted @${Env.MONGO_URL} by the end of service`
         )
+        // eslint-disable-next-line no-process-exit
+        process.exit(0)
       })
     )
   }
