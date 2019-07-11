@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce",
+  "name": "storedev-sdk",
   "version": "1.0.0",
   "main": "index.js",
   "module": "main.js",
